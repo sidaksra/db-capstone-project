@@ -7,7 +7,7 @@ WHERE Quantity > 2
 
 -- Order details for orders with cost greater than 150
 SELECT
-	c.CustomerID,
+    c.CustomerID,
     c.FullName,
     o.OrderID,
     o.TotalCost,
